@@ -14,13 +14,4 @@ public abstract class BaseThread<E> {
 	public void setEntity(E entity) {
 		this.entity = entity;
 	}
-
-//	public SupplierFiler getSupplierFiler() {
-//		return supplierFiler;
-//	}
-//
-//	public void setSupplierFiler(SupplierFiler supplierFiler) {
-//		this.supplierFiler = supplierFiler;
-//	}
-	
 }
