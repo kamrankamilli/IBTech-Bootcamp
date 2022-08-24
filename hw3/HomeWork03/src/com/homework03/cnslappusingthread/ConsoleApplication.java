@@ -32,7 +32,7 @@ public class ConsoleApplication {
 	private static void doLoad() throws IOException {
 		System.out.println("Yükleniyor...");
 		System.out.println();
-		LoaderThread loaderThread = new LoaderThread(new SupplierFiler(path));
+		LoaderThread loaderThread = new LoaderThread(supplierFiler);
 		Thread thread = new Thread(loaderThread);
 		thread.start();
 	}
@@ -40,7 +40,7 @@ public class ConsoleApplication {
 	private static void doStore() throws IOException {
 		System.out.println("Saklanıyor...");
 		System.out.println();
-		StorerThread storerThread = new StorerThread(new SupplierFiler(path));
+		StorerThread storerThread = new StorerThread(supplierFiler);
 		Thread thread = new Thread(storerThread);
 		thread.start();
 
