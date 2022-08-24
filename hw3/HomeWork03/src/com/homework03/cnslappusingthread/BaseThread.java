@@ -1,18 +1,26 @@
 package com.homework03.cnslappusingthread;
 
-public abstract class BaseThread {
-	protected SupplierFiler supplierFiler;
+public abstract class BaseThread<E> {
+	protected E entity;
 
-	public BaseThread(SupplierFiler supplierFiler) {
-		this.supplierFiler = supplierFiler;
+	public BaseThread(E entity) {
+		this.entity = entity;
 	}
 
-	public SupplierFiler getSupplierFiler() {
-		return supplierFiler;
+	public E getEntity() {
+		return entity;
 	}
 
-	public void setSupplierFiler(SupplierFiler supplierFiler) {
-		this.supplierFiler = supplierFiler;
+	public void setEntity(E entity) {
+		this.entity = entity;
 	}
+
+//	public SupplierFiler getSupplierFiler() {
+//		return supplierFiler;
+//	}
+//
+//	public void setSupplierFiler(SupplierFiler supplierFiler) {
+//		this.supplierFiler = supplierFiler;
+//	}
 	
 }

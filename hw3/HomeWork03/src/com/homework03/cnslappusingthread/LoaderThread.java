@@ -3,7 +3,7 @@ package com.homework03.cnslappusingthread;
 import java.io.IOException;
 import java.util.List;
 
-public class LoaderThread extends BaseThread implements Runnable {
+public class LoaderThread extends BaseThread<SupplierFiler> implements Runnable {
 	
 
 	public LoaderThread(SupplierFiler supplierFiler) {
@@ -13,8 +13,8 @@ public class LoaderThread extends BaseThread implements Runnable {
 	@Override
 	public void run() {
 		try {
-			List<Supplier> supplierList = supplierFiler.load();
-			supplierFiler.setSupplierList(supplierList);
+			List<Supplier> supplierList = getEntity().load();
+			getEntity().setSupplierList(supplierList);
 			System.out.println("Yüklendi");
 		} catch (IOException e) {
 			e.printStackTrace();
