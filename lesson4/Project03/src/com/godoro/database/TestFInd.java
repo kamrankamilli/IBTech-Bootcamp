@@ -19,7 +19,7 @@ public class TestFInd {
 		
 		String sql = "SELECT * FROM product WHERE productId=?";	
 		PreparedStatement statement =connection.prepareStatement(sql);
-		statement.setLong(1,1);
+		statement.setLong(1,2);
 		ResultSet resultSet = statement.executeQuery();
 		if(resultSet.next()) {
 			long productId = resultSet.getLong("productId");

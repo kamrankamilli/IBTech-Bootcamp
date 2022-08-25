@@ -8,8 +8,8 @@ public class DepartmentManager extends BaseManager<Department>{
 	
 	protected Department parse(ResultSet resultSet) throws Exception {
 
-		long departmentId = resultSet.getLong("employeeId");
-		String departmentName = resultSet.getString("employeeName");
+		long departmentId = resultSet.getLong("departmentId");
+		String departmentName = resultSet.getString("departmentName");
 
 		return new Department(departmentId, departmentName);
 	}

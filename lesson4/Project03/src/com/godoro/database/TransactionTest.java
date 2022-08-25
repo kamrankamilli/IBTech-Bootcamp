@@ -31,7 +31,7 @@ public class TransactionTest {
 		int affected2 = statement2.executeUpdate();
 		
 		
-		PreparedStatement statement3 =connection.prepareStatement(sql);
+		PreparedStatement statement3 =connection.prepareStatement("X"+sql+"X");
 		
 		statement3.setString(1, "Cep Telefonu");
 		statement3.setDouble(2, 5465);
@@ -40,9 +40,7 @@ public class TransactionTest {
 		connection.commit();
 		connection.close();
 		
-		System.out.println("Etkilenmiş " + affected1);
-		System.out.println("Etkilenmiş " + affected2);
-		System.out.println("Etkilenmiş " + affected3);
+		System.out.println("Etkilenmiş " + affected1 + " " +  affected2 + " " +affected3);
 
 	}
 

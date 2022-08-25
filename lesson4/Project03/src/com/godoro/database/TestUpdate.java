@@ -16,11 +16,12 @@ public class TestUpdate {
 		
 		Connection connection = DriverManager.getConnection(url,user,password);
 		
-		String sql = "UPDATE product set productName = ?  values(?,?)";	
+		String sql = "UPDATE product set productName = ?, salePrice=? where productId=?";	
 		PreparedStatement statement =connection.prepareStatement(sql);
 		
 		statement.setString(1, "Cep Telefonu");
 		statement.setDouble(2, 5465);
+		statement.setDouble(3, 2);
 		int affected = statement.executeUpdate();
 		
 		connection.close();
