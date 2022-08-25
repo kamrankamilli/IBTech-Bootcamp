@@ -21,3 +21,7 @@
 [HW-03-02 Console Application](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw3/HomeWork03/src/com/homework02/consoleapplication)
 <br/>
 [HW-03-03 Console Application Using Thread](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw3/HomeWork03/src/com/homework03/cnslappusingthread)
+<br/>
+### HomeWork 4
+[HW-04-01 Customer Patter](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw4/HomeWork04/src/com/homework01/customerpattern)
+[HW-04-02 BaseManager-Composition(Employee,Department)](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw4/HomeWork04/src/com/homework02/composition)
