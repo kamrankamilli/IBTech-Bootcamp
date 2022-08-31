@@ -9,9 +9,13 @@ public class TestEmployeeFind {
 		EmployeeManager employeeManager = new EmployeeManager();
 		try {
 			Employee employee = employeeManager.find(1);
-			System.out.println(employee.getEmployeeId() + " " + employee.getEmployeeName() + " " + employee.getMontlySalary());
+			if(employee!=null) {
+				System.out.println(employee.getEmployeeId() + " " + employee.getEmployeeName() + " " + employee.getMontlySalary());
+			}
+			else {
+				System.out.println("Bulunmadı");
+			}
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

@@ -10,7 +10,7 @@ import java.util.List;
 public class CustomerManager {
 	private String url = "jdbc:postgresql://localhost/dbgodoro";
 	private String user = "postgres";
-	private String password = "Kamran7814";
+	private String password = "somepassword";
 	private String driver = "org.postgresql.Driver";
 
 	public CustomerManager() {

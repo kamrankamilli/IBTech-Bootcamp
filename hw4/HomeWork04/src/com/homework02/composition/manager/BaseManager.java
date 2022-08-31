@@ -9,7 +9,7 @@ import java.util.List;
 public abstract class BaseManager<E> {
 	private String url = "jdbc:postgresql://localhost/dbgodoro";
 	private String user = "postgres";
-	private String password = "Kamran7814";
+	private String password = "somepassword";
 	private String driver = "org.postgresql.Driver";
 
 	protected Connection connection;

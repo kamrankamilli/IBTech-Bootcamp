@@ -33,7 +33,16 @@ public class EmployeeManager extends BaseManager<Employee> {
 		disconnect();
 		return employeeList;
 	}
-
+	public List<Employee> list(String departmentName) throws Exception{
+		connect();
+		String sql = "SELECT * FROM employee e, department d WHERE e.departmentid=d.departmentid AND d.departmentname="+'?';
+		PreparedStatement statement = connection.prepareStatement(sql);
+		statement.setString(1, departmentName);
+		ResultSet resultSet = statement.executeQuery();
+		List<Employee> employeeList = parseList(resultSet);
+		disconnect();
+		return employeeList;
+	}
 	@Override
 	protected Employee parse(ResultSet resultSet) throws Exception {
 		

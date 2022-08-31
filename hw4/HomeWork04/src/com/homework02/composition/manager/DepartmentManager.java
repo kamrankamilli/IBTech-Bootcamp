@@ -7,6 +7,7 @@ import java.util.List;
 import com.homework02.composition.entity.Department;
 
 public class DepartmentManager extends BaseManager<Department> {
+	
 	public Department find(long departmentId) throws Exception {
 		Department department = null;
 		connect();
