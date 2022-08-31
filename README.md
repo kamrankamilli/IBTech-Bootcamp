@@ -26,3 +26,11 @@
 [HW-04-01 Customer Patter](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw4/HomeWork04/src/com/homework01/customerpattern)
 <br/>
 [HW-04-02 BaseManager-Composition(Employee,Department)](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw4/HomeWork04/src/com/homework02/composition)
+<br/>
+[HW-05-01 Rectangle](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-01)
+<br/>
+[HW-05-02 Login without JDBC](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-02a)
+<br/>
+[HW-05-03 Login with JDBC](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-02b)
+<br/>
+[HW-05-03 Transaction Servlet](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-03)
