@@ -25,7 +25,7 @@ import com.homework.sports.utils.XmlHelper;
 import com.homework.sports.xml.PlayerXml;
 
 @WebServlet("/player/add")
-public class PlayerInsetServlet extends HttpServlet {
+public class PlayerInsertServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
