@@ -35,3 +35,12 @@
 [HW-05-03 Login with JDBC](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-02b)
 <br/>
 [HW-05-03 Transaction Servlet](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-03)
+<br/>
+### HomeWork 6
+[HW-06-01 Parse Student XMl](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework01)
+<br/>
+[HW-06-02 Parse Students XML](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework02)
+<br/>
+[HW-06-03 Generate XML](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework03)
+<br/>
+[HW-06-04 Player Servlet](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06-04)
