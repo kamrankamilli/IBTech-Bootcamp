@@ -37,7 +37,7 @@
 [HW-05-03 Transaction Servlet](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw5/HomeWork05-03)
 <br/>
 ### HomeWork 6
-[HW-06-01 Parse Student XMl](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework01)
+[HW-06-01 Parse Student XML](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework01)
 <br/>
 [HW-06-02 Parse Students XML](https://github.com/kamrankamilli/IBTech-Bootcamp/tree/main/hw6/HomeWork06/src/main/java/com/homework02)
 <br/>
