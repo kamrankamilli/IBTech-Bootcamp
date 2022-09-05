@@ -10,7 +10,6 @@ import com.homework.sports.entity.Player;
 public class PlayerManager extends BaseManager<Player> {
 
 	public PlayerManager() {
-		super();
 		try {
 			createTable();
 		} catch (SQLException e) {

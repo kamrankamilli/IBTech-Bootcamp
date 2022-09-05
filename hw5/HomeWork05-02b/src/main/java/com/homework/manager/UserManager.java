@@ -9,7 +9,6 @@ import com.homework.entity.User;
 public class UserManager extends BaseManager<User> {
 
 	public UserManager() {
-		super();
 		try {
 			createUserTable();
 		} catch (SQLException e) {
